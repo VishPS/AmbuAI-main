@@ -1,0 +1,97 @@
+:root {
+  --background-color: #333;
+  --card-color: hsl(0, 0%, 10%);
+  --text-color: #ffffff;
+  --nav-background: #1f1f1f;
+  --button-background: hsl(0, 3%, 2%);
+  --button-hover: hsl(0, 3%, 22%);
+}
+
+/* Light Theme */
+.light-theme {
+  --background-color: #ffffff;
+  --card-color: hsl(0, 0%, 90%);
+  --text-color: #000000;
+  --nav-background: #f0f0f0;
+  --button-background: hsl(180, 6%, 75%);
+  --button-hover: hsl(180, 2%, 35%);
+
+}
+
+.ambulance-detection-container {
+  padding: 60px;
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+  background-color: var(--card-color);
+  color: var(--text-color);
+}
+
+.ambulance-detection-container h2{
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.parent{
+  display: flex;
+  flex-direction: row;
+}
+
+.container1{
+  padding: 20px;
+  border: 0.1px solid;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.container1 input{
+  margin: 10px;
+}
+
+.container2{
+  padding: 20px;
+  border: 0.1px solid;
+  margin: 10px;
+  border-radius: 15px;
+  text-align: left;
+}
+
+.container2 li{
+  font-weight: 300;
+}
+
+input[type="file"]::file-selector-button {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+.image-card {
+  margin-top: 20px; /* Space above the image card */
+  padding: 15px; /* Padding inside the card */
+  border-radius: 8px; /* Rounded corners for the card */
+  text-align: center; /* Center the content */
+}
+
+.image-card img {
+  height: auto;
+  width: 200px; /* Ensure the image is responsive */
+  border-radius: 8px; /* Rounded corners for the image */
+}
+
+button {
+  background-color: var(--button-background); /* Use the variable for button background */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--button-hover);
+}

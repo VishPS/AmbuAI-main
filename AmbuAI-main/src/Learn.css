@@ -1,0 +1,52 @@
+:root {
+  --background-color: #000000;
+  --text-color: #ffffff;
+  --card-color: hsl(0, 0%, 15%);
+}
+
+/* Light Theme */
+.light-theme {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --card-color: #cfcfcf;
+}
+
+.home-container-learn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  padding-top: 40px;
+  background-color: var(--background-color);
+}
+
+.card-learn {
+  align-items: center;
+  background-color: var(--card-background);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-learn h1 {
+  color: var(--text-color); /* White color for headings */
+}
+
+.card-learn h2 {
+  color: var(--text-color); /* Light gray for subheadings */
+}
+
+.card-learn p {
+  line-height: 1.6;
+  color: var(--text-color); /* Light text color */
+}
+
+.card-learn ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.card-learn li {
+  margin: 5px 0;
+  color: var(--text-color); /* Light text color for list items */
+}

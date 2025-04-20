@@ -1,0 +1,103 @@
+:root {
+  --background-color: #333;
+  --text-color: #ffffff;
+  --card-color: hsl(0, 0%, 15%);
+  --nav-background: #1f1f1f;
+  --card-background: #272727;
+  --button-background: hsl(0, 3%, 12%);
+  --button-hover: hsl(0, 3%, 2%);
+}
+
+/* Light Theme */
+.light-theme {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --card-color: #cfcfcf;
+  --nav-background: #f0f0f0;
+  --card-background: #e1e1e1;
+  --button-background: hsl(180, 6%, 75%);
+  --button-hover: hsl(180, 2%, 35%);
+}
+
+/* Home Styles */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  padding-top: 90px;
+  background-color: var(--background-color);
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--card-background);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-container {
+  flex: 1;
+  text-align: left;
+}
+
+.text-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.home-heading1 {
+  font-size: 42px;
+  color: var(--text-color);
+  font-weight: 800;
+  margin-top: -60px;
+}
+
+.home-heading2 {
+  font-size: 42px;
+  color: hsl(0, 73%, 51%);
+  font-weight: 800;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
+.home-caption {
+  font-size: 16px;
+  padding-right: 20px;
+  margin-right: 70px;
+  color: var(--text-color);
+}
+
+.ambu-image {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 15px;
+}
+
+.home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  color: var(--text-color);
+  background-color: var(--button-background);
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.try-now {
+  background-color: var(--button-background);
+  border: 1px solid hsl(0, 73%, 51%);
+}
+
+.learn-more {
+  background-color: var(--button-background);
+  border: 1px solid grey;
+}
+
+.home-button:hover {
+  background-color: var(--button-hover);
+}
